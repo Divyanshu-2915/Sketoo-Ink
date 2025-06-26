@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: 'Anton';
+  src: url('./assets/fonts/Anton-Regular.ttf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GlassAntiqua';
+  src: url('./assets/fonts/GlassAntiqua-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NixileOne';
+  src: url('./assets/fonts/NixieOne-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kalnia';
+  src: url('./assets/fonts/Kalnia-Medium.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
