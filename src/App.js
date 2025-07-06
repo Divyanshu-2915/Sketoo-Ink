@@ -1,11 +1,20 @@
 
 import React from 'react';
 import './App.css';
+import HeroImg1 from './images/HeroImg1.jpg';
+import HeroImg2 from './images/HeroImg2.jpg';
+import HeroImg3 from './images/HeroImg3.jpg';
+import SecImg1 from './images/SecImg1.jpg';
+import FooterImg1 from './images/FooterImg1.jpg';
+import FooterImg2 from './images/FooterImg2.jpg';
+import FooterImg3 from './images/FooterImg3.jpg';
+import FooterImg4 from './images/FooterImg4.jpg';
+import FooterImg5 from './images/FooterImg5.jpg';
 
 function App() {
 return (
     <>
-    <hgroup className='border-2 border-black flex flex-col justify-around h-screen'>
+    <hgroup className='flex flex-col justify-around h-screen'>
     <section className='px-5 h-10'>
     <nav className='grid grid-flow-col justify-between items-center h-full font-glass tracking-wide  font-bold text-lg'>
         <h1>SKETOO INK</h1>
@@ -22,16 +31,18 @@ return (
     </h4>
     </section>
     </hgroup>
-    <figure className='border-2 border-black h-screen'>
-    
+    <figure className='h-max flex flex-col gap-40'>
+        <img src={HeroImg1} alt=""  className='h-96 w-96' />
+        <img src={HeroImg2} alt="" className='h-96 w-96' />
+        <img src={HeroImg3} alt="" className='h-96 w-96' />
     </figure>
     <main className='flex flex-col'>
     <section className='flex flex-col items-center p-10'>
         <h1 className='font-kalniaLight text-center text-4xl m-10'>ABOUT</h1>
         <h4 className='text-5xl text-wrap text-center font-nixie h-64 w-3/4'> Sketoo Ink is an safe. inclusive space where global tattoo styles comes to life. Our talented artists are dedicated to turning your vision into a lasting masterpiece</h4>
         </section>
-        <figure className='border-2 border-black h-96'>
-        
+        <figure className='h-min place-items-center'>
+            <img src={SecImg1} alt="" className='w-screen'/>
         </figure>
         <section className='bg-black h-max flex flex-col  text-white'>
             <h1 className='font-kalniaLight text-center text-4xl m-5 underline underline-offset-[20px]'>PROCESS</h1>
@@ -60,18 +71,21 @@ return (
             </section>
             <section>
                 <h1 className='font-kalniaLight text-center text-4xl mt-12 underline underline-offset-[20px]'>MEET THE TEAM</h1>
-                <div className='border-2 border-white flex flex-row justify-between my-20  p-16'>
-                <div className='border-2 border-white w-80 h-96'>
-                    <h1 className='text-3xl font-glass mx-4'>Prashant</h1>
+                <div className='flex flex-row justify-between my-20  p-16'>
+                <div className='border-2 border-white w-80 h-96 font-nixie tracking-wider'>
+                    <h1 className='text-3xl mx-4'>Prashant</h1>
                     <img src="" alt="img1" className='border-2 border-pink-400 w-full' />
+                    <p>Instagram</p>
                 </div>
-                <div className='border-2 border-white w-80 h-96'>
-                    <h1 className='text-3xl font-glass mx-4'>Prashant</h1>
+                <div className='border-2 border-white w-80 h-96 font-nixie tracking-wider '>
+                    <h1 className='text-3xl mx-4'>Prashant</h1>
                     <img src="" alt="img1" className='border-2 border-pink-400 w-full' />
+                    <p>Instagram</p>
                 </div>
-                <div className='border-2 border-white w-80 h-96'>
-                    <h1 className='text-3xl font-glass mx-4'>Prashant</h1>
+                <div className='border-2 border-white w-80 h-96 font-nixie tracking-wider '>
+                    <h1 className='text-3xl mx-4'>Prashant</h1>
                     <img src="" alt="img1" className='border-2 border-pink-400 w-full' />
+                    <p>Instagram</p>
                 </div>
                 </div>
             </section>
@@ -79,7 +93,12 @@ return (
         <section className='h-screen border-2 border-black'>
             <h1 className='font-kalniaLight text-center text-4xl mt-12 underline underline-offset-[20px]'>CLIENT TESTIMONY</h1>
         </section>
-        <section className='border-2 border-black h-screen'>
+        <section className='h-min flex flex-col gap-16 py-16'>
+            <img src={FooterImg1} alt="" className='h-96 w-96'/>
+            <img src={FooterImg2} alt="" className='h-96 w-96'/>
+            <img src={FooterImg3} alt="" className='h-96 w-96'/>
+            <img src={FooterImg4} alt="" className='h-96 w-96'/>
+            <img src={FooterImg5} alt="" className='h-96 w-96'/>
         </section>
         <footer>
             <section className='bg-black justify-around flex flex-row text-white p-12'>
